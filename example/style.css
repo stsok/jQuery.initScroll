@@ -1,0 +1,105 @@
+html
+{
+    font-size: 62.5%;
+
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+}
+
+.fixHeader
+{
+    font-family: Impact;
+    font-size: 12rem;
+
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    height: 200px;
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.fixHeader > span
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+}
+
+.box,
+.box-a,
+.box-b,
+.box-c,
+.box-d,
+.box-e
+{
+    font-family: Impact;
+    font-size: 10rem;
+
+    position: relative;
+
+    height: 100%;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.box > span,
+.box-a > span,
+.box-b > span,
+.box-c > span,
+.box-d > span,
+.box-e > span
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.box-a
+{
+    background-color: #39f;
+}
+
+.box-b
+{
+    background-color: #93f;
+}
+
+.box-c
+{
+    background-color: #f39;
+}
+
+.box-d
+{
+    background-color: #f93;
+}
+
+.box-e
+{
+    background-color: #3f3;
+}
