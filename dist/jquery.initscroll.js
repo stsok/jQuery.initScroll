@@ -13,7 +13,7 @@
     factory(jQuery, window, document);
   }
 }(function ($, window, document, undefined) {
-  $.fn.initScroll = function (options) {
+  return $.fn.initScroll = function (options) {
     if (!location.hash) { return this; }
 
     var $target = $('#' + location.hash.slice(1));
